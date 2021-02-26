@@ -1,0 +1,31 @@
+{
+  "name": "rabellino-mytinerary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancaRabellino/rabellino-mytinerary.git"
+  },
+  "author": "Rabellino Juan Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancaRabellino/rabellino-mytinerary/issues"
+  },
+  "homepage": "https://github.com/juancaRabellino/rabellino-mytinerary#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
