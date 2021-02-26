@@ -13,4 +13,6 @@ app.use(express.json()) // para toda petición que le entre a la api usá el tra
 
 app.use('/api', router) // cuando te hagan un pedido de cualquier tipo
 
-app.listen(4000, () => console.log('App listening on port 4000'))
+const port = process.env.PORT
+const host = process.env.HOST || '0.0.0.0'
+app.listen(port, host, () => console.log('App listening on port 4000'))
